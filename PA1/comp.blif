@@ -1,0 +1,23 @@
+.model comp
+.inputs x4 x3 x2 x1 x0
+.outputs y2 y1 y0                                               # a b cin | s cout
+#.search fulladder.blif
+.subckt fulladder a=x4     b=x3     cin=x2     s=s0 cout=carry0 # 1 1  1  | 1  1
+.subckt fulladder a=x1     b=x0     cin=s0     s=y0 cout=carry1 # 1 1  1  | 1  1
+.subckt fulladder a=carry0 b=carry1 cin=const0 s=y1 cout=y2     # 1 1  0  | 0  1
+.names const0
+.end
+
+.model fulladder
+.inputs a b cin
+.outputs s cout
+.names a b cin s
+001 1
+010 1
+100 1
+111 1
+.names a b cin cout
+11- 1
+1-1 1
+-11 1
+.end
