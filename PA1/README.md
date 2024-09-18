@@ -2,6 +2,7 @@
 
 ## 5-to-3 compressor design methodology
 
+![Diagram](https://github.com/user-attachments/assets/f7dec825-542c-4794-b7ca-62f10cfcaebc)
 
 ## ABC Boolean Function Representations
 ### Logic Network
