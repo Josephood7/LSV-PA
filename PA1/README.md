@@ -9,6 +9,8 @@
 
 ![aig](https://github.com/user-attachments/assets/24704445-a1ff-4517-a728-493497a93b18)
 
+---
+
 ### And-Inverter Graphs (AIG)
 `aig`  
 > Composed of:
@@ -21,9 +23,10 @@
 
 ### Global AIG
 `strash`
+> No node boundary. A more scattered map.
+>> ![strash](https://github.com/user-attachments/assets/523337c9-cddd-4d33-8c7d-59195df55df0)
 
-![strash](https://github.com/user-attachments/assets/523337c9-cddd-4d33-8c7d-59195df55df0)
-
+---
 
 ### Binary Decision Diagraph (BDD)
 `bdd`
@@ -35,6 +38,10 @@
 
 ### Global BDD
 `collapse`
+> Simplified with cut and boundaries.
+>> ![collapse](https://github.com/user-attachments/assets/3bed235d-fd38-4fb6-bf74-fe0d1e9238bf)
 
-![collapse](https://github.com/user-attachments/assets/3bed235d-fd38-4fb6-bf74-fe0d1e9238bf)
+---
 
+### SOP  
+![sop](https://github.com/user-attachments/assets/9efbb006-ba59-4f61-affd-5f960ee906b6)
